@@ -1,16 +1,26 @@
 body{
-    max-height: 100vh;
+ /*   max-height: 120vh;*/
 }
+
 .up-section {
     border: 1px solid black;
     text-align: center;
-    height: 50px;
+    height: 30px;
 }
 
 .nav {
     border: black solid 1px;
     text-align: center;
     height: 20px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    display: inline-block;
 }
 
 .hero {
@@ -22,7 +32,7 @@ body{
 .main-section {
     border: black 1px solid;
     text-align: center;
-    height: 250px;
+    height: 180px;
 }
 .footer {
     border: solid black 1px;
