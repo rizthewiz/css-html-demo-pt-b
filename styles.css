@@ -1,5 +1,5 @@
 body{
- /*   max-height: 120vh;*/
+    max-height: 100vh;
 }
 
 .up-section {
@@ -9,33 +9,47 @@ body{
 }
 
 .nav {
-    border: black solid 1px;
+    background-color: black;
+    border-radius: 10px 10px 0px 0px;
     text-align: center;
     height: 20px;
 }
 
 .nav-buttons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 li{
     display: inline-block;
+    display: flex;
+    color: white;
+    font-style: italic;
+}
+
+li:hover{
+    display: flex;
+    color: rgb(246, 211, 211);
+    font-style: bold;
+    font-size: 20px;
 }
 
 .hero {
-    border: black 1px solid;
-    text-align: center;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9d6afbac-73be-46c5-98af-bff7c0bd0a07/df0ab7a-b7918d79-7c7d-4094-a697-843337e19b10.jpg/v1/fill/w_1192,h_670,q_70,strp/one_piece_banner__for_one_of_my_friends__by_rilxygfx_df0ab7a-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODEwIiwicGF0aCI6IlwvZlwvOWQ2YWZiYWMtNzNiZS00NmM1LTk4YWYtYmZmN2MwYmQwYTA3XC9kZjBhYjdhLWI3OTE4ZDc5LTdjN2QtNDA5NC1hNjk3LTg0MzMzN2UxOWIxMC5qcGciLCJ3aWR0aCI6Ijw9MTQ0MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.CMw-oEvi9eml9VueVSzm0ecD7viAFgxgZzM_rkK3ejU");
+    background-repeat: no-repeat;
     height: 120px;
+    background-size: contain; 
+    background-size: 100%;
+    background-position: center;
 }
 
 .main-section {
-    border: black 1px solid;
+    border: rgb(157, 94, 94) 1px solid;
     text-align: center;
     height: 180px;
 }
 .footer {
-    border: solid black 1px;
+    background-color: lightgray;
     text-align: center;
     height: 40px;
 }
